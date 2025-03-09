@@ -1,4 +1,4 @@
-default {
+default gui cred {
     "username": "admin",
     "password": "t%ZnnFH2kq2s^f4zfokSa59uNtD46fE*boF#QNt#JK@r98Gi%!zRKPP@b$z29f9Q"
 }
@@ -6,13 +6,14 @@ new {
     "username": "root",
     "password": "root4123"
 }
+playit cred {
+    secret_key = "5a6c7e7a1d0995f821a41f251430348226917bf1cd9f7f35f0a0025983bb341b"
+}
 
 docker start 5d64fa
 whitelist add theHULK
 whitelist list
-147.185.221.26:50415 < server ip
-
-secret_key = "5a6c7e7a1d0995f821a41f251430348226917bf1cd9f7f35f0a0025983bb341b"
+{ 147.185.221.26:50415 } < server ip
 
 ~/start_server.sh
 
