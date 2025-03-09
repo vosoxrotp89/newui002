@@ -16,4 +16,4 @@ secret_key = "5a6c7e7a1d0995f821a41f251430348226917bf1cd9f7f35f0a0025983bb341b"
 
 ~/start_server.sh
 
-while true; do echo "Preventing idle timeout"; sleep 180; done
+while true; do echo "Preventing idle timeout"; sleep 40; done
