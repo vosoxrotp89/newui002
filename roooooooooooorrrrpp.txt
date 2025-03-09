@@ -9,6 +9,12 @@ new {
 playit cred {
     secret_key = "5a6c7e7a1d0995f821a41f251430348226917bf1cd9f7f35f0a0025983bb341b"
 }
+{ for cloudfare -
+    acc id - b9fe579e94a6ccd6f84035c79569f786
+    tunnel id - d3d82ee2-b94c-4844-8e7e-4563d33b145f
+    client id - b3f41f972062fd4b6f2f3b674825388b.access
+    CF-Access-Client-Secret: 0029e8dca76359ae09fcde039e740adc152aa59a5b9dc42df5212c1e6404b68c
+}
 
 docker start 5d64fa
 whitelist add theHULK
